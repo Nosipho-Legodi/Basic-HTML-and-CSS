@@ -1,0 +1,118 @@
+body{
+    background-color: aliceblue;
+    
+}
+img{
+
+    text-align: center;
+    padding-left: 250px;
+    background-color: aliceblue;
+    
+
+}
+
+main, strong, p{
+
+
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h1{
+
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+form{
+    text-align: center;
+
+
+}
+
+
+
+label{
+    font-size: xx-large;
+    width: 500px;
+    height: 50px;
+    font-style: bold;
+
+
+}
+input{
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+
+
+
+}
+button{
+   border-radius: 50px;
+   border-width: 30px;
+   border-color: antiquewhite;
+   border-bottom-color: antiquewhite;
+   text-decoration: antiquewhite;
+   border-style: solid;
+   color:red;
+
+}
+a{
+
+    font-style: italic;
+    color: red;
+}
+
+td{
+    cursor:auto;
+    width: 2px;
+    height: 2px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.td:hover{
+
+    background-color: pink;
+
+}
+
+.loginBox{
+    border-style: solid;
+    margin: 50px;
+    text-align: center;
+    margin-left: 15cm;
+    margin-right: 15cm;
+}
+
+.new{
+    text-align: center;
+    font-size: larger;
+
+
+}
+
+.picture{
+    
+    cursor: pointer;
+    width: 150px;
+    padding: 50px;
+    border-style: none;
+}
+
+.picture:hover{
+    background-color:pink;
+
+}
+.row::after{
+    content:"";
+    display: table;
+    clear:both;
+
+
+
+}
+.row{
+    text-align: right;
+}
